@@ -1,0 +1,55 @@
+===================================
+
+Tema 4 - Protocoale de Comunicatie
+Nume: Andrei Vladut-Nicolae
+Grupa: 331CC
+
+===================================
+
+In cadrul celei de-a patra teme de la PCom, am avut de realizat implementarea unui client web
+care sa interactioneze cu un REST API expus de un server prin protocolul HTTP.
+
+Mentionez, in primul rand, faptul ca am folosit 2 sleep days pentru aceasta tema, iar in al
+doilea rand, faptul ca am ales sa implementez tema in limbajul C, motiv pentru care am facut
+parsarea JSON a informatiilor despre utilizatori si carti cu ajutorul bibliotecii "parson".
+De aceea, am preluat din link-ul din cerinta implementarile pentru parson.c si parson.h
+(https://github.com/kgabis/parson).
+
+In tema a 4-a de la PCom am avut de implementat un REST API prin protocolul HTTP, pentru a obtie un client web care interactioneaza cu serverul acesta.
+
+Pentru aceasta tema am folosit 2 sleep days. Pentru parsarea JSON am folosit parson.c si parson.h (https://github.com/kgabis/parson) deoarece am scris tema in limbaj C.
+
+Scheletul de baza al acestei teme este alcatuit din laboratorul 9, unde am modificat requests.c si requests.h pentru a implementa cererile de tip GET, POST sau DELETE.
+
+Initial mi-am definit variabilele globale pentru caile de acces catre server, si variabilele de care voi avea nevoie pentru rezolvarea efectiva a cerintelor. Am cautat ce comanda este introdusa de la tastatura, iar apoi am realizat functionalitatile pentru urmatoarele 9 cazuri:
+
+1 - register
+Utilizatorul trebuie sa introduca un username si o parola. Daca username-ul a mai fost folosit in crearea altui cont, atunci va primi un mesaj de eroare. Altfel, utilizator a fost creat cu succes.
+
+2 - login
+Utilizatorul trebuie sa introduca un username si o parola valabile. Daca acestea nu se potrivesc cu un cont deja existent, atunci se va intoarce un mesaj de eroare. Altfel, se va returna cookie-ul sesiunii.
+
+3 - enter_library
+Odata logat, prima actiune pe care un utilizator trebuie sa o faca este sa intre in biblioteca. Aceasta verificare se va face in functie de cookie-ul disponibil. Daca intrarea a fost cu succes, atunci se va intoarce token-ul sesiunii. Altfel, se va intoarce un mesaj de eroare precum utilizatorul nu este logat.
+
+4 - get_books
+Odata intrat in biblioteca, utilizatorul poate vedea ce carti sunt disponibile. Se verifica accesul la biblioteca, iar daca acesta este permis, se vor afisa cartile cu id si titlu printr-o formatare pretty JSON. Altfel, se va intoarce un mesaj de eroare precum utilizatorul nu este logat.
+
+5 - get_book
+O alta actiune pe care utilizatorul o poate face in biblioteca este de a vizualiza intormatii despre o singura carte. Aceasta este cautata dupa id-ul ei, si se va returna id, titlu, autor, editor, gen si numarul de pagini daca aceasta este gasita. In cazul in care utilizatorul nu are acces la biblioteca, se va intoarce un mesaj de eroare, sau daca id-ul cartii nu exista.
+
+6 - add_book
+Utilizatorul poate adauga o carte folosind aceasta comanda. Trebuie verificat daca acesta are acces la biblioteca, iar daca are, trebuie sa introduca titlul, autorul, genul, editorul si numarul de paginii. Daca numarul de pagini introdus nu este intr-un format valid, se va afisa in mesaj de eroare.
+
+7 - delete_book
+Aceasta comanda sterge o carte in functie de id-ul ei. Daca utilizatorul nu este autentificat, se va intoarce un mesaj de eroare.
+
+8 - logout
+Aceasta comanda delogheaza utilizatorul si modifica variabila globala care verifica acest lucru in celelalte cazuri.
+
+9 - exit
+Terminam programul fara sa mai afisam vreun mesaj
+
+Am reusit sa implmentez toate functionalitatile temei (de mentionat ca checker-ul si nici rularea manuala nu imi ruleaza cu username: test, password: test123, asa ca am introdus contul username: test, password: test). Mai multe detalii despre implementare am lasat si in comentariile din cod. Timpul de rezolvare a fost undeva la 2-3 zile. Mi-a placut aceasta tema deoarece am putut sa inteleg mai bine care este conexiunea din spate intre un server si o baza de date.
+
+===================================

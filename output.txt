@@ -1,0 +1,173 @@
+[1;30;45m<RUN SUBTASK: full>: [0;0m
+[1;36mregister: [0;0m
+[0;31m    ERROR: Username-ul exista deja.[0;0m
+[1;36mlogin: [0;0m
+[0;32m    Utilizatorul a fost logat cu succes[0;0m
+[1;36menter_library: [0;0m
+[0;32m    SUCCES: Utilizatorul are acces la biblioteca[0;0m
+[1;36mget_books: [0;0m
+    Retrieved book IDs + titles: 
+    []
+    []
+[1;36madd_book: [0;0m
+[0;32m    SUCCES: Cartea a fost adaugata![0;0m
+[1;36madd_book: [0;0m
+[0;32m    SUCCES: Cartea a fost adaugata![0;0m
+[1;36mget_books: [0;0m
+    Retrieved book IDs + titles: 
+    ['48749', '48750']
+    ['Computer Networks', 'Viata Lui Nutu Camataru: Dresor de Lei si de Fraieri']
+[1;32m    OKAY: count=2[0;0m
+[1;36mget_book_id: [0;0m
+[1;32m    OKAY: fields match![0;0m
+[1;36mdelete_book: [0;0m
+[0;32m    Cartea cu id 48750 a fost stearsa cu succes![0;0m
+[1;36mlogout: [0;0m
+[0;37m    Utilizatorul s-a delogat cu succes![0;0m
+[1;36mexit: [0;0m
+[1;30;45m<RUN SUBTASK: delete_all>: [0;0m
+[1;36mlogin: [0;0m
+[0;32m    Utilizatorul a fost logat cu succes[0;0m
+[1;36menter_library: [0;0m
+[0;32m    SUCCES: Utilizatorul are acces la biblioteca[0;0m
+[1;36mget_books: [0;0m
+    Retrieved book IDs + titles: 
+    ['48749']
+    ['Computer Networks']
+[1;36mdelete_all_books: [0;0m
+[0;32m    Cartea cu id 48749 a fost stearsa cu succes![0;0m
+[1;36mget_books: [0;0m
+    Retrieved book IDs + titles: 
+    []
+    []
+[1;32m    OKAY: count=0[0;0m
+[1;36mlogout: [0;0m
+[0;32m    Utilizatorul s-a delogat cu succes![0;0m
+[1;36mexit: [0;0m
+[1;30;45m<RUN SUBTASK: add3>: [0;0m
+[1;36mregister: [0;0m
+[0;31m    ERROR: Username-ul exista deja.[0;0m
+[1;36mlogin: [0;0m
+[0;32m    Utilizatorul a fost logat cu succes[0;0m
+[1;36menter_library: [0;0m
+[0;32m    SUCCES: Utilizatorul are acces la biblioteca[0;0m
+[1;36mget_books: [0;0m
+    Retrieved book IDs + titles: 
+    []
+    []
+[1;36madd_book: [0;0m
+[0;32m    SUCCES: Cartea a fost adaugata![0;0m
+[1;36madd_book: [0;0m
+[0;32m    SUCCES: Cartea a fost adaugata![0;0m
+[1;36madd_book: [0;0m
+[0;32m    SUCCES: Cartea a fost adaugata![0;0m
+[1;36mget_books: [0;0m
+    Retrieved book IDs + titles: 
+    ['48757', '48758', '48759']
+    ['Computer Networks', 'Viata Lui Nutu Camataru: Dresor de Lei si de Fraieri', 'Oracle SQL, SQL*Plus']
+[1;32m    OKAY: count=3[0;0m
+[1;36mget_book_id: [0;0m
+[1;32m    OKAY: fields match![0;0m
+[1;36mget_book_id: [0;0m
+[1;32m    OKAY: fields match![0;0m
+[1;36mget_book_id: [0;0m
+[1;32m    OKAY: fields match![0;0m
+[1;36mlogout: [0;0m
+[0;32m    Utilizatorul s-a delogat cu succes![0;0m
+[1;36mexit: [0;0m
+[1;30;45m<RUN SUBTASK: read3>: [0;0m
+[1;36mlogin: [0;0m
+[0;32m    Utilizatorul a fost logat cu succes[0;0m
+[1;36menter_library: [0;0m
+[0;32m    SUCCES: Utilizatorul are acces la biblioteca[0;0m
+[1;36mget_books: [0;0m
+    Retrieved book IDs + titles: 
+    ['48757', '48758', '48759']
+    ['Computer Networks', 'Viata Lui Nutu Camataru: Dresor de Lei si de Fraieri', 'Oracle SQL, SQL*Plus']
+[1;32m    OKAY: count=3[0;0m
+[1;36mget_book_id: [0;0m
+[1;32m    OKAY: fields match![0;0m
+[1;36mlogout: [0;0m
+[0;32m    Utilizatorul s-a delogat cu succes![0;0m
+[1;36mexit: [0;0m
+[1;30;45m<RUN SUBTASK: delete_all>: [0;0m
+[1;36mlogin: [0;0m
+[0;32m    Utilizatorul a fost logat cu succes[0;0m
+[1;36menter_library: [0;0m
+[0;32m    SUCCES: Utilizatorul are acces la biblioteca[0;0m
+[1;36mget_books: [0;0m
+    Retrieved book IDs + titles: 
+    ['48757', '48758', '48759']
+    ['Computer Networks', 'Viata Lui Nutu Camataru: Dresor de Lei si de Fraieri', 'Oracle SQL, SQL*Plus']
+[1;36mdelete_all_books: [0;0m
+[0;32m    Cartea cu id 48757 a fost stearsa cu succes![0;0m
+[0;32m    Cartea cu id 48758 a fost stearsa cu succes![0;0m
+[0;32m    Cartea cu id 48759 a fost stearsa cu succes![0;0m
+[1;36mget_books: [0;0m
+    Retrieved book IDs + titles: 
+    []
+    []
+[1;32m    OKAY: count=0[0;0m
+[1;36mlogout: [0;0m
+[0;32m    Utilizatorul s-a delogat cu succes![0;0m
+[1;36mexit: [0;0m
+[1;30;45m<RUN SUBTASK: invalid_user>: [0;0m
+[1;36mregister: [0;0m
+[0;31m    ERROR: Username-ul are spatii.[0;0m
+[1;36mlogin: [0;0m
+[0;31m    ERROR: Username-ul are spatii.[0;0m
+[1;36menter_library: [0;0m
+[0;31m    ERROR: Nu esti logat![0;0m
+[1;36mlogout: [0;0m
+[0;31m    ERROR: Nu esti conectat.[0;0m
+[1;36mexit: [0;0m
+[1;30;45m<RUN SUBTASK: invalid_book_fields>: [0;0m
+[1;36mregister: [0;0m
+[0;31m    ERROR: Username-ul exista deja.[0;0m
+[1;36mlogin: [0;0m
+[0;32m    Utilizatorul a fost logat cu succes[0;0m
+[1;36menter_library: [0;0m
+[0;32m    SUCCES: Utilizatorul are acces la biblioteca[0;0m
+[1;36madd_book: [0;0m
+[0;37m    <no output>[0;0m
+[1;36mlogout: [0;0m
+[0;31m    ERROR: Tip de date incorect pentru numarul de pagini[0;0m
+[1;36mexit: [0;0m
+[1;30;45m<RUN SUBTASK: invalid_book_pages>: [0;0m
+[1;36mregister: [0;0m
+[0;31m    ERROR: Username-ul exista deja.[0;0m
+[1;36mlogin: [0;0m
+[0;32m    Utilizatorul a fost logat cu succes[0;0m
+[1;36menter_library: [0;0m
+[0;32m    SUCCES: Utilizatorul are acces la biblioteca[0;0m
+[1;36madd_book: [0;0m
+[0;31m    ERROR: Tip de date incorect pentru numarul de pagini[0;0m
+[1;36mlogout: [0;0m
+[0;37m    Utilizatorul s-a delogat cu succes![0;0m
+[1;36mexit: [0;0m
+[1;30;45m<RUN SUBTASK: delete_all>: [0;0m
+[1;36mlogin: [0;0m
+[0;32m    Utilizatorul a fost logat cu succes[0;0m
+[1;36menter_library: [0;0m
+[0;32m    SUCCES: Utilizatorul are acces la biblioteca[0;0m
+[1;36mget_books: [0;0m
+    Retrieved book IDs + titles: 
+    []
+    []
+[1;36mdelete_all_books: [0;0m
+[1;36mget_books: [0;0m
+    Retrieved book IDs + titles: 
+    []
+    []
+[1;32m    OKAY: count=0[0;0m
+[1;36mlogout: [0;0m
+[0;32m    Utilizatorul s-a delogat cu succes![0;0m
+[1;36mexit: [0;0m
+[1;30;45m<RUN SUBTASK: full>: [0;0m
+[1;36mregister: [0;0m
+[0;31m    ERROR: Username-ul exista deja.[0;0m
+[1;36mlogin: [0;0m
+[0;32m    Utilizatorul a fost logat cu succes[0;0m
+[1;36menter_library: [0;0m
+[0;32m    SUCCES: Utilizatorul are acces la biblioteca[0;0m
+[1;36mget_books: [0;0m
